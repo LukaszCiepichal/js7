@@ -1,6 +1,10 @@
 let firstNumber = 9
 let secondNumber = 17
 
-let result = firstNumber + secondNumber;
+function multiply(firstNumber, secondNumber){
+    let result = firstNumber + secondNumber
 
-console.log(result)
+    return result;
+}
+
+console.log( multiply(9, 17) );
